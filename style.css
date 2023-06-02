@@ -1,5 +1,5 @@
 header{
-    background: url(Estrellas.png);
+    background: url(imagenes/Estrellas.png);
     padding: 30px;
     padding: 30px 10px 50px;
 }
@@ -50,7 +50,7 @@ h2{
 main{
    
     color: white;
-    background: url(Estrellas.png);
+    background: url(imagenes/Estrellas.png);
     padding-inline-start: 120px;
     padding-block-end: 150px;
 }
