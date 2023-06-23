@@ -1,5 +1,5 @@
 header{
-    background: url(Estrellas.png);
+    background: url(imagenes/Estrellas.png);
     padding: 30px;
     padding: 30px 10px 50px;
 }
@@ -50,7 +50,7 @@ h2{
 main{
    
     color: white;
-    background: url(Estrellas.png);
+    background: url(imagenes/Estrellas.png);
     padding-inline-start: 120px;
     padding-block-end: 150px;
 }
@@ -71,7 +71,6 @@ main{
 textarea{
     background: #000000b5;
     color: #fff;
-    font-weight: ;
     height: 250px;
     height: 250px;
     width: 48%;
@@ -88,35 +87,91 @@ textarea{
 }
    
 
-.boton-ejecutar{
+/* .boton-ejecutar{
     background: #494949;
     cursor: pointer;
     border: none;
-    padding: 26px 32px;
+    padding: 26px 2px;
     color: #fff;
     font-size: 14px;
     font-weight: bold;
-    border-radius: 12px;
+    border-radius: 14px;
     text-align: center;
-    margin-left: 45%;
+    margin: 5%;
     font-family: 'Montserrat Alternates', sans-serif;
+} */
+
+.boton-ejecutar{
+    border: 50%;
+    border-radius: 25px;
+    color: #fff;
+    display: flex ;
+    font-size: 18px;
+    padding-left: 45%;
+    padding-top: 40px;
+    cursor: pointer;
 }
 
-/* por completar
+input{
+    background-color: #0DA2FC;
+    padding: 18px 34px;
+    border-radius: 12px;
+    border: none;
+}
 
-@media screen and (max-width: 480px){
+
+
+@media screen and (max-width: 390px){
     header{
-        text-align: center;
-        width: 70%;
+         width: 100%;
     }
-    p, h2, main, textarea{
-        position: static;
-        width: 50%;
+    h2{
+        font-family: 'Roboto Mono', monospace;
+        padding-left:0px;
     }
-    .iconos, .botones, .Fuente, .contenedor{
-        width: auto;
+    main{
+    width: 100%;
+    padding-inline-start: 40px;
+}
+        
+    
+    .imgnotas{
+        width: 20%;
+        padding-inline-start: 1px;
+        position: absolute;
+        padding-top: 46%;
+        padding-left: 50%;
     }
-    .diferenciales-list, .imagenDiferenciales{
-        width: 100%;
+
+
+    div{
+      width: 20%;
+    padding-inline-start: 1px;
+    position: initial;
     }
-} 
+
+    textarea{
+         
+    width: 20%;
+    padding: 10%;
+    padding-bottom: 0;     
+    padding-top: 0;
+    border-radius: 15px; 
+    }
+
+    .controles {
+    display: inline;
+        padding: 50px;
+        margin: 30px;
+    }
+    .iconos{
+        width: 80%;
+    padding: 10%;
+    padding-bottom: 20px;     
+    padding-top: 20px;
+   
+    }
+    .boton-ejecutar{
+        padding-left: 120px;
+    }
+}
