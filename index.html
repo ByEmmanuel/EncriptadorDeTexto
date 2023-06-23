@@ -10,10 +10,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <!--icono pequeño que se muestra en la pestaña del navegador-->
         <link rel="shortcut icon" href="" type="image/x-icon" />
-
+        <!--Hojas de estilo-->
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
-        <script src="Desafio-Encriptar.js"></script>
+       
+        <!--fuentes-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Montserrat+Alternates:wght@200&family=Urbanist:wght@200;400&display=swap" rel="stylesheet">
@@ -27,13 +28,13 @@
                 <h1> <img class="imgnotas" src="imagenes/Mi proyecto.png" alt=""></h1>
                 <nav>
                     <h2>Encriptador de texto</h2>
+        </header>
 
                 </nav>
                 <nav class="Letra-chiquita">
                     <p>&#128683; No se permite el uso de letras mayusculas, acentos o caracteres especiales &#9757;</p>
                 </nav>
             </div>
-        </header>
         <main>
            <section>
 
@@ -44,26 +45,37 @@
                         <i title="Borrar todo" class="bi bi-trash" onclick="borrarTodo()"></i>
                     </div>
 
-                    <textarea id="Mensaje" cols="40" rows="10" placeholder="Mensaje a encriptar :p" spellcheck="false"></textarea>
+                    <textarea id="escribir_mensaje" cols="40" rows="10" placeholder="Mensaje a encriptar :p" spellcheck="false"></textarea>
                     <textarea name="resultado" class="resultado" id="resultado" placeholder="resultado" readonly="true"></textarea> 
                 </div>
                 <div class="controles">
                     <label for="radio_encriptar">
-                        <input type="radio" name="opciones" id="radio" value="encriptar">
+                        <input type="radio" name="opciones" id="radio_encriptar" value="encriptar">
                         Encriptar
                     </label>
                     <label for="radio_desencriptar">
+<<<<<<< HEAD:encriptar-challengue.html
                         <input type="radio"  name="opciones" id="radio" value="desencriptar">
                         Desencriptar texto
+=======
+                        <input type="radio"  name="opciones" id="radio_desencriptar" value="desencriptar">
+                        Desencriptar 
+>>>>>>> 1d3e009 (style.css):index.html
                     </label>
                     
                 </div>
-                <button class="boton-ejecutar">Ejecutar</button>
+                <div class="boton-ejecutar"> <!-- aqui deberia ir la class-->
+                    <input type="button" id="btn-ejecutar" value="Ejecutar" onclick="encriptar()">
+                    
+                </div>
             </section>
         </main>
 
         <footer>
             
         </footer>
+         <!--script-->
+         <script src="Desafio-Encriptar.js"></script>
+         <script src="herramientas.js"></script>
     </body>
 </html>
