@@ -4,10 +4,19 @@ header{
     padding: 30px 10px 50px;
 }
 
+h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 70px;
+    color: white;
+    padding: 40px 50px 0px;
+    margin: 0 0 0 30%;
+}
+
 .imgnotas{
     width: 160px;
     padding-left: 170px;
     position: absolute;
+    display: inline;
 }
 
 
@@ -30,22 +39,16 @@ header{
 
 p{
     font-family: 'Urbanist', sans-serif;
-    font-size: 10px;
-    color: white;
+    font-size: 12px;
+    color: #0DA2FC;
     position: absolute;
-    padding-left: 40%;
+    padding-left: 35%;
+    padding-top: 45px;
 }
 
 .Fuente{
     font-family: 'Montserrat Alternates', sans-serif;}
 
-h2{
-    font-family: 'Lobster Two', cursive;
-    font-size: 70px;
-    color: white;
-    padding: 40px 50px 70px;
-    margin: 0 0 0 30%;
-}
 
 main{
    
@@ -64,7 +67,7 @@ main{
     border-radius: 10px;
 */    
     max-width: 100%;
-    width: 1100px;
+    width: 90%;
     padding: 20px;   
 }
 
@@ -107,7 +110,7 @@ textarea{
     color: #fff;
     display: flex ;
     font-size: 18px;
-    padding-left: 45%;
+    padding-left: 43%;
     padding-top: 40px;
     cursor: pointer;
 }
@@ -119,28 +122,66 @@ input{
     border: none;
 }
 
+footer{
+    border-style: solid;
+    border-top: 0%;
+    border-width: 1px 35px 35px 35px;
+} 
+.Copyright {
+    color: #0DA2FC;
+    padding: 2%;
+    padding-left: 5%;
+}
 
+.Iconos-footer {
+    display: flex;
+    justify-content: flex-end;
+}
 
-@media screen and (max-width: 390px){
+.list-inline {
+    display: flex;
+    list-style: none;
+    padding-left: 40%;
+}
+
+.list-inline-item {
+    margin-left: 20px;
+}
+
+.Iconos-footer {
+    display: inline;
+    flex-direction: row;
+    margin: 10%;
+}
+.github, .twitter, .linkedin, .tiktok{
+    margin: 1%;
+    padding: 30px 10px 10px 20px;
+}
+
+@media screen and (max-width: 900px){
+    
     header{
          width: 100%;
     }
-    h2{
+    h1{
+        font-size: 3em;
+        width: 80%;
         font-family: 'Roboto Mono', monospace;
         padding-left:0px;
+        position: relative;
     }
     main{
     width: 100%;
     padding-inline-start: 40px;
-}
+    }
         
     
     .imgnotas{
         width: 20%;
         padding-inline-start: 1px;
         position: absolute;
-        padding-top: 46%;
-        padding-left: 50%;
+        padding-top: 30%;
+        padding-left: 60%;
     }
 
 
@@ -163,6 +204,10 @@ input{
     display: inline;
         padding: 50px;
         margin: 30px;
+        
+    }
+    .controles label{
+        width: 2px;
     }
     .iconos{
         width: 80%;
