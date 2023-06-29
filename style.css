@@ -54,8 +54,13 @@ main{
 
     color: white;
     background: url(imagenes/Estrellas.png);
+<<<<<<<<< Temporary merge branch 1
     padding-inline-start: 120px;
     padding-block-end: 150px;
+=========
+    padding-inline-start: 30px;
+    padding-inline-end: 10px;
+>>>>>>>>> Temporary merge branch 2
 }
 
 .contenedor{
@@ -111,9 +116,16 @@ textarea{
     color: #fff;
     display: flex ;
     font-size: 18px;
+<<<<<<<<< Temporary merge branch 1
     padding-left: 45%;
     padding-top: 40px;
     cursor: pointer;
+=========
+    padding-left: 43%;
+    padding-top: 40px;
+    cursor: pointer;
+    padding-bottom: 2%;
+>>>>>>>>> Temporary merge branch 2
 }
 
 input{
@@ -123,6 +135,7 @@ input{
     border: none;
 }
 
+<<<<<<<<< Temporary merge branch 1
 
 
 @media screen and (max-width: 390px){
@@ -132,10 +145,63 @@ input{
     h2{
         font-family: 'Roboto Mono', monospace;
         padding-left:0px;
+=========
+footer{
+    border-style: solid;
+    border-top: 0%;
+    border-width: 1px 35px 35px 35px;
+} 
+.Copyright {
+    
+    color: #0DA2FC;
+    padding: 2%;
+    padding-left: 450px;
+}
+
+.Iconos-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-inline {
+    display: flex;
+    list-style: none;
+    padding-left: 40%;
+}
+
+.list-inline-item {
+    margin-left: 20px;
+}
+
+.Iconos-footer {
+    display: inline;
+    flex-direction: row;
+    margin: 10%;
+}
+.github, .twitter, .linkedin, .tiktok{
+    margin: 1%;
+    padding: 30px 10px 10px 20px;
+}
+
+/* Aqui empieza la edicion responsiva de celulares */
+
+@media screen and (max-width: 900px){
+    
+    header{
+         width: 100%;
+    }
+    h1{
+        font-size: 3em;
+        width: 80%;
+        font-family: 'Roboto Mono', monospace;
+        padding-left:0px;
+        position: relative;
+>>>>>>>>> Temporary merge branch 2
     }
     main{
     width: 100%;
     padding-inline-start: 40px;
+<<<<<<<<< Temporary merge branch 1
 }
         
     
@@ -167,6 +233,13 @@ input{
     display: inline;
         padding: 50px;
         margin: 30px;
+<<<<<<<<< Temporary merge branch 1
+=========
+        
+    }
+    .controles label{
+        width: 2px;
+>>>>>>>>> Temporary merge branch 2
     }
     .iconos{
         width: 80%;
