@@ -53,9 +53,9 @@ h1{
 main{
 
     color: white;
-    background: url(imagenes/Estrellas.png);
-    padding-inline-start: 30px;
-    padding-inline-end: 10px;
+    background: url(Estrellas.png);
+    padding-inline-start: 120px;
+    padding-block-end: 150px;
 }
 
 .contenedor{
@@ -103,116 +103,18 @@ textarea{
     text-align: center;
     margin: 5%;
     font-family: 'Montserrat Alternates', sans-serif;
-} */
-
-.boton-ejecutar{
-    border: 50%;
-    border-radius: 25px;
-    color: #fff;
-    display: flex ;
-    font-size: 18px;
-    padding-left: 43%;
-    padding-top: 40px;
-    cursor: pointer;
-    padding-bottom: 2%;
 }
 
-input{
-    background-color: #0DA2FC;
-    padding: 18px 34px;
-    border-radius: 12px;
-    border: none;
-}
+/* por completar
 
-footer{
-    border-style: solid;
-    border-top: 0%;
-    border-width: 1px 35px 35px 35px;
-} 
-.Copyright {
-    
-    color: #0DA2FC;
-    padding: 2%;
-    padding-left: 450px;
-}
-
-.Iconos-footer {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.list-inline {
-    display: flex;
-    list-style: none;
-    padding-left: 40%;
-}
-
-.list-inline-item {
-    margin-left: 20px;
-}
-
-.Iconos-footer {
-    display: inline;
-    flex-direction: row;
-    margin: 10%;
-}
-.github, .twitter, .linkedin, .tiktok{
-    margin: 1%;
-    padding: 30px 10px 10px 20px;
-}
-
-/* Aqui empieza la edicion responsiva de celulares */
-
-@media screen and (max-width: 900px){
-    
+@media screen and (max-width: 480px){
     header{
-         width: 100%;
+        text-align: center;
+        width: 70%;
     }
-    h1{
-        font-size: 3em;
-        width: 80%;
-        font-family: 'Roboto Mono', monospace;
-        padding-left:0px;
-        position: relative;
-    }
-    main{
-    width: 100%;
-    padding-inline-start: 40px;
-    }
-        
-    
-    .imgnotas{
-        width: 20%;
-        padding-inline-start: 1px;
-        position: absolute;
-        padding-top: 30%;
-        padding-left: 60%;
-    }
-
-
-    div{
-      width: 20%;
-    padding-inline-start: 1px;
-    position: initial;
-    }
-
-    textarea{
-         
-    width: 20%;
-    padding: 10%;
-    padding-bottom: 0;     
-    padding-top: 0;
-    border-radius: 15px; 
-    }
-
-    .controles {
-    display: inline;
-        padding: 50px;
-        margin: 30px;
-        
-    }
-    .controles label{
-        width: 2px;
+    p, h2, main, textarea{
+        position: static;
+        width: 50%;
     }
     .iconos{
         width: 80%;
