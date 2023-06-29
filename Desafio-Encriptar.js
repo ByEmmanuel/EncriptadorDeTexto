@@ -1,6 +1,3 @@
-//window.confirm ("HOLA!! Bienvenido seas a mi pagina web,  agradeceria mucho tu apoyo y tu feedback que me podrias dejar en la parte de los iconos inferiores")
-//window.confirm (" esta actualmente se encuentra actualizandose constantemente, aun no es el proyecto final :)")
- 
 document.getElementById("btn-ejecutar").addEventListener("click", ejecutar);
 
 
