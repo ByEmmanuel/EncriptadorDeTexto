@@ -1,17 +1,18 @@
+document.getElementById("btn-ejecutar").addEventListener("click", ejecutar);
 
-var nombre = ("Emma");
 
-console.log(nombre);
-
-console.log(typeof nombre); //ver el tipo de variable en la consola
-
-var numero = 1000;
-
-function saltarlinea(salto){
-    document.write("<br>")
-    document.write("<br>")
-
-}
+function ejecutar() {
+  const texto = document.getElementById('escribir_mensaje').value;
+  const resultado = document.getElementById('resultado');
+  const encriptar = document.getElementById('radio_encriptar');
+  const desencriptar = document.getElementById('radio_desencriptar');
+  if (encriptar.checked) {
+      resultado.value = encriptararea (texto);
+      resultado.textContent = encriptar(texto);
+    } else if (desencriptar.checked) {
+      resultado.value = desencriptararea(texto);
+      resultado.textContent = desencriptar(texto);
+  }
 
 
 

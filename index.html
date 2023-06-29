@@ -25,9 +25,10 @@
         <header>
             <a class="botones" href="http://">cambiar tema</a>
             <div class="Fuente">
-                <h1> <img class="imgnotas" src="Mi proyecto.png" alt=""></h1>
+                <h1> <img class="imgnotas" src="imagenes/Mi proyecto.png" alt=""></h1>
                 <nav>
                     <h2>Encriptador de texto</h2>
+        </header>
 
                 </nav>
                 <nav class="Letra-chiquita">
@@ -58,7 +59,10 @@
                     </label>
                     
                 </div>
-                <button class="boton-ejecutar">Ejecutar</button>
+                <div class="boton-ejecutar"> <!-- aqui deberia ir la class-->
+                    <input type="button" id="btn-ejecutar" value="Ejecutar" onclick="encriptar()">
+                    
+                </div>
             </section>
         </main>
 
