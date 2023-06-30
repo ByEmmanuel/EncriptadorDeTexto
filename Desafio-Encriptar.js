@@ -25,11 +25,11 @@ function ejecutar() {
       }
 
       let textoEncriptado = texto
-          .replace(/e/gi, "enter")
-          .replace(/i/gi, "imes")
-          .replace(/a/gi, "ai")
-          .replace(/o/gi, "ober")
-          .replace(/u/gi, "ufat");
+          .replace(/a/gi, "41")
+          .replace(/e/gi, "3nt3r")
+          .replace(/i/gi, "1m35")
+          .replace(/o/gi, "0b3r")
+          .replace(/u/gi, "uf4t");
 
       return textoEncriptado;
   }

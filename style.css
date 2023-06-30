@@ -55,7 +55,7 @@ main{
     color: white;
     background: url(imagenes/Estrellas.png);
     padding-inline-start: 30px;
-    padding-inline-end: 10px;
+    padding-inline-end: 30px;
 }
 
 .contenedor{
@@ -176,10 +176,19 @@ footer{
         position: relative;
     }
     main{
-    width: 100%;
+    width: 87.9%;
     padding-inline-start: 40px;
+    margin: 0%;
     }
+    
+    
+    
+    .contenedor{
+        max-width: 100%;
+        width: 90%;
         
+        padding-left: 5%; 
+    }
     
     .imgnotas{
         width: 20%;
@@ -206,14 +215,15 @@ footer{
     }
 
     .controles {
-    display: inline;
-        padding: 50px;
-        margin: 30px;
+        display: inline;
+        justify-content: space-around;
+        background-color: #a3272700;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 13px;
         
     }
-    .controles label{
-        width: 2px;
-    }
+
     .iconos{
         width: 80%;
     padding: 10%;
@@ -224,6 +234,33 @@ footer{
     .boton-ejecutar{
         padding-left: 120px;
     }
+    .Copyright{
+        display: inline;
+        background-color: #49202000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+    }
+   
+    .list-inline {
+        display: flex;
+        list-style: none;
+        padding-left: 10%;
+    }
+    
+    .list-inline-item {
+        margin-left: 20px;
+    }
+    
+    .Iconos-footer {
+        display: inline;
+        flex-direction: row;
+        margin: 10%;
+    }
+    .github, .twitter, .linkedin, .tiktok{
+        margin: 1%;
+        padding: 30px 10px 10px 20px;
+    }
+    
 }
 
 /* este archivo esta bien y es el actualizado 29 de junio de 2023 */
