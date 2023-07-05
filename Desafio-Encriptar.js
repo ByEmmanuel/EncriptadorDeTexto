@@ -25,11 +25,11 @@ function ejecutar() {
       }
 
       let textoEncriptado = texto
-          .replace(/a/gi, "41")
-          .replace(/e/gi, "3nt3r")
-          .replace(/i/gi, "1m35")
-          .replace(/o/gi, "0b3r")
-          .replace(/u/gi, "uf4t");
+          .replace(/e/gi, "enter")
+          .replace(/i/gi, "imes")
+          .replace(/a/gi, "ai")
+          .replace(/o/gi, "ober")
+          .replace(/u/gi, "ufat");
 
       return textoEncriptado;
   }
@@ -41,10 +41,10 @@ function ejecutar() {
       }
       
       let textoDesencriptado = textoEncriptado
-        .replace(/enter/gi, "e")
-        .replace(/imes/gi, "i")
-        .replace(/ai/gi, "a")
-        .replace(/ober/gi, "o")
+      .replace(/enter/gi, "e")
+      .replace(/imes/gi, "i")
+      .replace(/ai/gi, "a")
+      .replace(/ober/gi, "o")
         .replace(/ufat/gi, "u");
     
       return textoDesencriptado;
@@ -52,4 +52,6 @@ function ejecutar() {
     
 }
 
-// este archivo esta bien y es el actualizado 29 JUNIO 2023
+
+// RECUERDA ACTUALIZAR LA FECHA EN CADA ACTUALIZACION DE CODIGO
+// este archivo esta bien y es el actualizado 5 JULIO 2023
